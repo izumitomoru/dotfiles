@@ -25,21 +25,26 @@ rtp:prepend(lazypath)
 
 -- install plugins
 require('lazy').setup {
-  require 'plugins.nvimtree',
-  require 'plugins.colortheme',
+  -- main utilities
+  require 'plugins.persistence',
   require 'plugins.bufferline',
-  require 'plugins.which-key',
-  require 'plugins.lualine',
+  require 'plugins.nvimtree',
+  require 'plugins.toggleterm',
+  require 'plugins.lsp',
+  require 'plugins.autoformat',
+  require 'plugins.lazygit',
   require 'plugins.treesitter',
   require 'plugins.telescope',
-  require 'plugins.lsp',
-  require 'plugins.autocomplete',
-  require 'plugins.autoformat',
-  require 'plugins.indent-blankline',
-  require 'plugins.misc',
-  require 'plugins.alpha',
   require 'plugins.debugging',
-  require 'plugins.lazygit',
+
+  -- misc
+  require 'plugins.misc',
+  require 'plugins.colortheme',
+  require 'plugins.which-key',
+  require 'plugins.lualine',
+  require 'plugins.autocomplete',
+  require 'plugins.indent-blankline',
+  require 'plugins.alpha',
   require 'plugins.gitsigns',
 }
 
