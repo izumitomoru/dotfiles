@@ -1,10 +1,7 @@
 return {
   {
+    -- text icons
     'echasnovski/mini.nvim',
-    --    require('mini.nvim').setup(),
-  },
-  {
-    'folke/which-key.nvim',
   },
   {
     'windwp/nvim-autopairs',
@@ -33,7 +30,7 @@ return {
       dir = vim.fn.stdpath 'state' .. '/sessions/', -- directory where session files are saved
 
       -- make all variables stored in session (hopefully)
-      --      globals,
+      globals,
       --      options,
       --      localoptions,
       --      --buffers,

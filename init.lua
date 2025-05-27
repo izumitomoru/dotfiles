@@ -28,6 +28,7 @@ require('lazy').setup {
   require 'plugins.nvimtree',
   require 'plugins.colortheme',
   require 'plugins.bufferline',
+  require 'plugins.which-key',
   require 'plugins.lualine',
   require 'plugins.treesitter',
   require 'plugins.telescope',

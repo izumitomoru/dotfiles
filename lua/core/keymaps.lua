@@ -89,8 +89,8 @@ vim.keymap.set('n', '<Right>', ':vertical resize +2<CR>', opts)
 -- Buffers
 --vim.keymap.set('n', '<tab>', ':bnext<cr>', opts, { desc = 'next buffer' })
 --vim.keymap.set('n', '<S-Tab>', ':bprevious<CR>', opts, { desc = 'Previous buffer' })
-vim.keymap.set('n', '<leader>w', ':Bdelete!<CR>', opts, { desc = 'Close buffer' }) -- close buffer
-vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', opts, { desc = 'New buffer' }) -- new buffer
+vim.keymap.set('n', '<leader>ww', ':Bdelete!<CR>', opts, { desc = 'Close buffer' }) -- close buffer
+vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', opts, { desc = 'New buffer' })  -- new buffer
 
 -- bufferline
 vim.keymap.set('n', '<S-l>', ':BufferLineMoveNext<CR>', opts, { desc = 'Move buffer right' })

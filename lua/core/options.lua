@@ -23,8 +23,13 @@ vim.o.writebackup = false -- if a file is being edited by another program (or wa
 vim.o.undofile = true -- Save undo history
 vim.wo.signcolumn = 'yes' -- Keep signcolumn on by default
 --vim.go.sessionoptions = 'globals,curdir,buffers,resize,localoptions,options,winsize'
+
+vim.go.sessionoptions = 'globals,blank,buffers,curdir,folds,help,tabpages,winsize,terminal'
+
 --vim.o.sessionoptions = 'globals,curdir,buffers,resize,localoptions,options,winsize'
 
+--vim.o.sessionoptions = 'blank,buffers,curdir,folds,help,tabpages,winsize,terminal'
+--vim.wo.sessionoptions = 'blank,buffers,curdir,folds,help,tabpages,winsize,terminal'
 -- sessionoptions	list of words that specifies what to put in a session file
 -- 	set ssop=blank,buffers,curdir,folds,help,tabpages,winsize,terminal
 
