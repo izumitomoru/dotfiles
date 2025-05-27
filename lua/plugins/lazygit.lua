@@ -1,4 +1,5 @@
 return {
+  -- now, they don't tell you this for SOME fucking reason, but you need to have the external package "lazygit" installed. you'd think a vital dependency would be explicitly marked as required
   'kdheepak/lazygit.nvim',
   lazy = true,
   cmd = {
