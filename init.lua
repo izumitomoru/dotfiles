@@ -38,6 +38,7 @@ require('lazy').setup {
   require 'plugins.misc',
   require 'plugins.alpha',
   require 'plugins.debugging',
+  require 'plugins.lazygit',
   require 'plugins.gitsigns',
 }
 
