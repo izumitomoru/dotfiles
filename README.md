@@ -6,13 +6,15 @@ Originally I was just planning on getting a quick editor set up so I could focus
 
 # Plugin list
 
-## Main utilities
+## Package managers
 
-### folke/lazy.nvim
+### [folke/lazy.nvim](https://github.com/folke/lazy.nvim)
 Main package manager.
 
-### mason-org/mason.nvim
+### [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim)
 Secondary package manager some packages require.
+
+## Main utilities
 
 ### folke/persistence.nvim
 Simple session manager.
