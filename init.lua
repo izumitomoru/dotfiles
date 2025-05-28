@@ -38,8 +38,9 @@ require('lazy').setup {
   require 'plugins.debugging',
 
   -- misc
+  require 'plugins.autopairs',
   require 'plugins.misc',
-  require 'plugins.colortheme',
+  require 'plugins.monokai-pro',
   require 'plugins.which-key',
   require 'plugins.lualine',
   require 'plugins.autocomplete',
