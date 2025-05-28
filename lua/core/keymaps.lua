@@ -32,6 +32,15 @@ vim.keymap.set('n', '<leader>qd', function()
   require('persistence').stop()
 end, { desc = 'Disable session saving' })
 
+---- registers, etc.
+-- copy and write to register a
+vim.keymap.set('n', '<leader>a', '"a', opts)
+vim.keymap.set('n', '<C-a>', '"ap', opts)
+vim.keymap.set('x', 'a', '"a', opts) -- mapmode x is for visual select mode
+
+-- delete single character without copying into register
+vim.keymap.set('n', 'x', '"_x', opts)
+
 -- nvim-tree
 vim.keymap.set('n', '\\', ':NvimTreeToggle<CR>', opts)
 
@@ -79,9 +88,6 @@ vim.keymap.set('n', '<C-l>', ':wincmd l<CR>', opts)
 
 -- Remove highlights
 vim.keymap.set('n', '<leader>i', '<cmd> noh <CR>', { desc = 'Remove highlights' }, opts)
-
--- delete single character without copying into register
-vim.keymap.set('n', 'x', '"_x', opts)
 
 -- Vertical scroll and center
 vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)

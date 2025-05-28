@@ -16,69 +16,69 @@ Secondary package manager some packages require.
 
 ## Main utilities
 
-### folke/persistence.nvim
+### [folke/persistence.nvim](https://github.com/folke/persistence.nvim)
 Simple session manager.
 
-### akinsho/bufferline.nvim
+### [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 Buffer manager with a bunch of nice customizations.
 
-### nvim-tree/nvim-tree.lua
+### [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 File tree with devicons.
 
-### akinsho/toggleterm.nvim
+### [akinsho/toggleterm.nvim](https://github.com/)
 Better nvim terminals with terminal customization. Unfortunately seemingly impossible to have multiple different ones open at the same time currently.
 
-### neovim/nvim-lspconfig.nvim
+### [neovim/nvim-lspconfig.nvim](https://github.com/neovim/nvim-lspconfig.nvim)
 LSP.
 
-### nvimtools/none-ls.nvim
+### [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
 Auto formatter.
 
-### kdheepak/lazygit.nvim
+### [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 Git integration, requires lazygit to be installed externally.
 
-### nvim-treesitter/nvim-treesitter
+### [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 Parser generator.
 
-### nvim-telescope/telescope.nvim
+### [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 Fuzzy finder.
 
-### mfussenegger/nvim-dap
+### [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap)
 Debug adapter.
 
-### windwp/nvim-autopairs
+### [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 Auto pairing for parentheses, etc.
 
 ## Miscellaneous
 
-### loctvl842/monokai-pro.nvim
+### [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
 Monokai color theme.
 
-### folke/which-key.nvim
+### [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
 Shows list of current keybinds.
 
-### nvim-lualine/lualine.nvim
+### [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 Status line that also has git integration.
 
-### saghen/blink.cmp
+### [saghen/blink.cmp](https://github.com/saghen/blink.cmp)
 More autocompletion.
 
-### lukas-reineke/indent-blankline.nvim
+### [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 Shows indented scope lines.
 
-### lewis6991/gitsigns.nvim
+### [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 Git sign icons.
 
 ## Extra
 
-### goolord/alpha-nvim
+### [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim)
 Session greeter screen.
 
-### echasnovski/mini.nvim
+### [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim)
 More icons.
 
-### folke/todo-comments.nvim
+### [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 Adds todo comments and the like.
 
-### norcalli/nvim-colorizer.lua
+### [norcalli/nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)
 Adds color effects to show in-file.
