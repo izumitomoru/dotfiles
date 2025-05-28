@@ -25,7 +25,7 @@ Buffer manager with a bunch of nice customizations.
 ### [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 File tree with devicons.
 
-### [akinsho/toggleterm.nvim](https://github.com/)
+### [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 Better nvim terminals with terminal customization. Unfortunately seemingly impossible to have multiple different ones open at the same time currently.
 
 ### [neovim/nvim-lspconfig.nvim](https://github.com/neovim/nvim-lspconfig.nvim)
