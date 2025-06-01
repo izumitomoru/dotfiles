@@ -14,12 +14,12 @@ return {
     require('mason-null-ls').setup {
       ensure_installed = {
         'clang-format',
-        'checkmake',
+        --'checkmake',
         --'prettier', -- ts/js formatter
         'stylua', -- lua formatter
         --'eslint_d', -- ts/js linter
         'shfmt',
-        'ruff',
+        --'ruff',
       },
       -- auto-install configured formatters & linters (with null-ls)
       automatic_installation = true,
@@ -32,11 +32,6 @@ return {
       formatting.shfmt.with { args = { '-i', '4' } },
       formatting.terraform_fmt,
       null_ls.builtins.formatting.clang_format,
-      null_ls.builtins.formatting.clang_format.with {
-        extra_args = {
-          '-style={ColumnLimit: 0}',
-        },
-      },
       require('none-ls.formatting.ruff').with { extra_args = { '--extend-select', 'I' } },
       require 'none-ls.formatting.ruff_format',
     }
