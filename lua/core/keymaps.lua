@@ -48,11 +48,11 @@ vim.keymap.set('n', '\\', ':NvimTreeToggle<CR>', opts)
 ---- Terminals / Windows
 -- floating terminal
 vim.keymap.set('n', '<C-space>', ':ToggleTerm name=main direction=float<CR>', opts) -- toggle terminal
-vim.keymap.set('t', '<C-space>', '<C-\\><C-n>:ToggleTerm<CR>', opts)                -- toggle terminal while in terminal
+vim.keymap.set('t', '<C-space>', '<C-\\><C-n>:ToggleTerm<CR>', opts) -- toggle terminal while in terminal
 
 -- horizontal terminal
 vim.keymap.set('n', '<C-g>', ':ToggleTerm direction=horizontal<CR>', opts) -- toggle terminal
-vim.keymap.set('t', '<C-g>', '<C-\\><C-n>:ToggleTerm<CR>', opts)           -- toggle terminal while in terminal
+vim.keymap.set('t', '<C-g>', '<C-\\><C-n>:ToggleTerm<CR>', opts) -- toggle terminal while in terminal
 
 -- cool idea that doesn't work apparently or i'm just stupid
 ---- horizontal terminal
@@ -67,7 +67,7 @@ vim.keymap.set('t', '<C-e>', '<C-\\><C-n>', opts) -- enter normal mode while in 
 --vim.keymap.set('n', '<tab>', ':bnext<cr>', opts, { desc = 'next buffer' })
 --vim.keymap.set('n', '<S-Tab>', ':bprevious<CR>', opts, { desc = 'Previous buffer' })
 vim.keymap.set('n', '<leader>ww', ':Bdelete!<CR>', opts, { desc = 'Close buffer' }) -- close buffer
-vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', opts, { desc = 'New buffer' })  -- new buffer
+vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', opts, { desc = 'New buffer' }) -- new buffer
 
 -- bufferline
 vim.keymap.set('n', '<S-l>', ':BufferLineMoveNext<CR>', opts, { desc = 'Move buffer right' })
@@ -76,9 +76,9 @@ vim.keymap.set('n', '<tab>', ':BufferLineCycleNext<CR>', opts)
 vim.keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>', opts)
 
 -- Window/split management
-vim.keymap.set('n', '<leader>v', '<C-w>v', opts)      -- split window vertically
-vim.keymap.set('n', '<leader>n', '<C-w>n', opts)      -- split window horizontally
-vim.keymap.set('n', '<leader>se', '<C-w>=', opts)     -- make split windows equal width & height
+vim.keymap.set('n', '<leader>v', '<C-w>v', opts) -- split window vertically
+vim.keymap.set('n', '<leader>n', '<C-w>n', opts) -- split window horizontally
+vim.keymap.set('n', '<leader>se', '<C-w>=', opts) -- make split windows equal width & height
 vim.keymap.set('n', '<leader>xs', ':close<CR>', opts) -- close current split window
 
 -- Navigate between splits
@@ -91,8 +91,8 @@ vim.keymap.set('n', '<C-l>', ':wincmd l<CR>', opts)
 vim.keymap.set('n', '<leader>i', '<cmd> noh <CR>', { desc = 'Remove highlights' }, opts)
 
 -- Vertical scroll and center
-vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)
-vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
+vim.keymap.set('n', '<C-d>', '15<C-d>zz', opts)
+vim.keymap.set('n', '<C-u>', '15<C-u>zz', opts)
 
 -- Find and center
 vim.keymap.set('n', 'n', 'nzzzv')

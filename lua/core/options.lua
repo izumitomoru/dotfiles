@@ -1,3 +1,7 @@
+vim.wo.scroll = 10
+vim.o.scroll = 10
+vim.go.scroll = 10
+
 vim.wo.number = true -- default line numbers
 vim.o.clipboard = 'unnamedplus' -- Sync OS clipboard with neovim (default: '')
 vim.o.wrap = true -- Display lines as one long line
@@ -24,7 +28,7 @@ vim.o.undofile = true -- Save undo history
 vim.wo.signcolumn = 'yes' -- Keep signcolumn on by default
 --vim.go.sessionoptions = 'globals,curdir,buffers,resize,localoptions,options,winsize'
 
-vim.go.sessionoptions = 'globals,blank,buffers,curdir,folds,help,tabpages,winsize,terminal'
+vim.go.sessionoptions = 'globals,blank,buffers,curdir,folds,help,tabpages,winsize,terminal,options'
 
 --vim.o.sessionoptions = 'globals,curdir,buffers,resize,localoptions,options,winsize'
 
