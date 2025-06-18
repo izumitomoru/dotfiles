@@ -41,6 +41,7 @@ require('lazy').setup {
   require 'plugins.autopairs',
   require 'plugins.misc',
   require 'plugins.monokai-pro',
+  require 'plugins.transparent',
   require 'plugins.which-key',
   require 'plugins.lualine',
   require 'plugins.autocomplete',
