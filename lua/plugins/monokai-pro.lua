@@ -17,6 +17,7 @@ return {
         'neo-tree',
         'bufferline', -- better used if background of `neo-tree` or `nvim-tree` is cleared
       },
+
       plugins = {
         bufferline = {
           underline_selected = false,
@@ -29,14 +30,14 @@ return {
       },
     }
     -- toggle transparency test
-    local bg_transparent = true
+    -- local bg_transparent = true
 
-    local toggle_transparency = function()
-      bg_transparent = not bg_transparent
-      vim.g.transparent_background = bg_transparent
-      vim.cmd [[colorscheme monokai-pro]]
-    end
+    -- local toggle_transparency = function()
+    --   bg_transparent = not bg_transparent
+    --   vim.g.transparent_background = bg_transparent
+    --   vim.cmd [[colorscheme monokai-pro]]
+    -- end
 
-    vim.keymap.set('n', '<leader>bg', toggle_transparency, { noremap = true, silent = true })
+    --vim.keymap.set('n', '<leader>Bg', toggle_transparency(), { desc = 'toggle transparency' }, opts)
   end,
 }
