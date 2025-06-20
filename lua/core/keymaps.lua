@@ -47,8 +47,8 @@ vim.keymap.set('n', '\\', ':NvimTreeToggle<CR>', opts)
 
 ---- Terminals / Windows
 -- floating terminal
-vim.keymap.set('n', '<C-space>', ':ToggleTerm name=main direction=float<CR>', opts) -- toggle terminal
-vim.keymap.set('t', '<C-space>', '<C-\\><C-n>:ToggleTerm<CR>', opts) -- toggle terminal while in terminal
+vim.keymap.set('n', '<S-space>', ':ToggleTerm name=main direction=float<CR>', opts) -- toggle terminal
+vim.keymap.set('t', '<S-space>', '<C-\\><C-n>:ToggleTerm<CR>', opts) -- toggle terminal while in terminal
 
 -- horizontal terminal
 vim.keymap.set('n', '<C-g>', ':ToggleTerm direction=horizontal<CR>', opts) -- toggle terminal

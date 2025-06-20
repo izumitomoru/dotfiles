@@ -103,33 +103,4 @@ return {
     vim.keymap.set('n', '<leader><leader>k', require('smart-splits').swap_buf_up)
     vim.keymap.set('n', '<leader><leader>l', require('smart-splits').swap_buf_right)
   end,
-  ------- THING
-  ---
-  --    -- resizing splits
-  --    -- amount defaults to 3 if not specified
-  --    -- use absolute values, no + or -
-  --    -- the functions also check for a range,
-  --    -- so for example if you bind `<A-h>` to `resize_left`,
-  --    -- then `10<A-h>` will `resize_left` by `(10 * config.default_amount)`
-  --    require('smart-splits').resize_up(amount)
-  --    require('smart-splits').resize_down(amount)
-  --    require('smart-splits').resize_left(amount)
-  --    require('smart-splits').resize_right(amount)
-  --    -- moving between splits
-  --    -- You can override config.at_edge and
-  --    -- config.move_cursor_same_row via opts
-  --    -- See Configuration.
-  --    require('smart-splits').move_cursor_up { same_row = boolean, at_edge = 'wrap' | 'split' | 'stop' }
-  --    require('smart-splits').move_cursor_down()
-  --    require('smart-splits').move_cursor_left()
-  --    require('smart-splits').move_cursor_right()
-  --    require('smart-splits').move_cursor_previous()
-  --    -- Swapping buffers directionally with the window to the specified direction
-  --    require('smart-splits').swap_buf_up()
-  --    require('smart-splits').swap_buf_down()
-  --    require('smart-splits').swap_buf_left()
-  --    require('smart-splits').swap_buf_right()
-  --    -- the buffer swap functions can also take an `opts` table to override the
-  --    -- default behavior of whether or not the cursor follows the buffer
-  --    require('smart-splits').swap_buf_right { move_cursor = true }
 }
