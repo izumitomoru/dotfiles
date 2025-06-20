@@ -56,7 +56,7 @@ return {
     local filename = {
       'filename',
       file_status = true, -- displays file status (readonly status, modified status)
-      path = 2,           -- 0 = just filename, 1 = relative path, 2 = absolute path
+      path = 2, -- 0 = just filename, 1 = relative path, 2 = absolute path
     }
 
     local hide_in_width = function()
@@ -90,7 +90,14 @@ return {
         --        
         section_separators = { left = '', right = '' },
         component_separators = { left = '', right = '' },
-        disabled_filetypes = { 'alpha', 'NvimTree', 'neo-tree', 'Avante' },
+
+        -- disabling these is good when using transparent bg
+        --disabled_filetypes = {
+        --  'alpha',
+        --  'NvimTree',
+        --  'neo-tree',
+        --  'Avante',
+        --},
         always_divide_middle = true,
       },
       sections = {

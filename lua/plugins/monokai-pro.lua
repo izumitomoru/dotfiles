@@ -16,6 +16,7 @@ return {
         'nvim-tree',
         'neo-tree',
         'bufferline', -- better used if background of `neo-tree` or `nvim-tree` is cleared
+        'lualine', -- idk if this works
       },
       -- test comment for thing
 
