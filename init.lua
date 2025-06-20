@@ -26,10 +26,12 @@ rtp:prepend(lazypath)
 -- install plugins
 require('lazy').setup {
   -- main utilities
+  require 'plugins.smartsplits',
   require 'plugins.persistence',
   require 'plugins.bufferline',
   require 'plugins.nvimtree',
   require 'plugins.toggleterm',
+  require 'plugins.tmux',
   require 'plugins.lsp',
   require 'plugins.autoformat',
   require 'plugins.lazygit',

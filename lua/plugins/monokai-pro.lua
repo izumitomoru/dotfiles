@@ -17,6 +17,7 @@ return {
         'neo-tree',
         'bufferline', -- better used if background of `neo-tree` or `nvim-tree` is cleared
       },
+      -- test comment for thing
 
       plugins = {
         bufferline = {
