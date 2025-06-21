@@ -92,12 +92,12 @@ return {
         component_separators = { left = '', right = '' },
 
         -- disabling these is good when using transparent bg
-        --disabled_filetypes = {
-        --  'alpha',
-        --  'NvimTree',
-        --  'neo-tree',
-        --  'Avante',
-        --},
+        disabled_filetypes = {
+          --  'alpha',
+          'NvimTree',
+          --  'neo-tree',
+          --  'Avante',
+        },
         always_divide_middle = true,
       },
       sections = {

@@ -4,7 +4,7 @@ return {
   priority = 1000,
   config = function()
     require('monokai-pro').setup {
-      transparent_background = true,
+      --transparent_background = true,
       terminal_colors = true,
       background_clear = {
         'float_win',
@@ -15,7 +15,7 @@ return {
         'notify',
         'nvim-tree',
         'neo-tree',
-        'bufferline', -- better used if background of `neo-tree` or `nvim-tree` is cleared
+        'bufferLine', -- better used if background of `neo-tree` or `nvim-tree` is cleared
         'lualine', -- idk if this works
       },
       -- test comment for thing

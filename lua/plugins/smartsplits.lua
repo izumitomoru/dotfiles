@@ -83,6 +83,7 @@ return {
       -- default logging level, one of: 'trace'|'debug'|'info'|'warn'|'error'|'fatal'
       log_level = 'info',
     }
+
     -- recommended mappings
     -- resizing splits
     -- these keymaps will also accept a range,
