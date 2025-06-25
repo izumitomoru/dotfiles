@@ -63,6 +63,8 @@ return {
       -- function: code to be executed after highlight groups are cleared
       -- Also the user event "TransparentClear" will be triggered
       on_clear = function() end,
+
+      -- clear all of one prefix
       require('transparent').clear_prefix 'BufferLine',
       require('transparent').clear_prefix 'NvimTree',
       require('transparent').clear_prefix 'lualine',

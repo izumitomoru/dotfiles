@@ -94,8 +94,8 @@ vim.keymap.set('n', '<leader>xs', ':close<CR>', opts) -- close current split win
 vim.keymap.set('n', '<leader>i', '<cmd> noh <CR>', { desc = 'Remove highlights' }, opts)
 
 -- Vertical scroll and center
-vim.keymap.set('n', '<C-d>', '15<C-d>zz', opts)
-vim.keymap.set('n', '<C-u>', '15<C-u>zz', opts)
+vim.keymap.set('n', '<C-d>', '10<C-d>zz', opts)
+vim.keymap.set('n', '<C-u>', '10<C-u>zz', opts)
 
 -- Find and center
 vim.keymap.set('n', 'n', 'nzzzv')
